@@ -1,0 +1,18 @@
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 595px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bimg{
+    background-image: url(./Img/coinBg.jpg);
+    background-position: center;
+    background-attachment: flex;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.m {
+    min-height: fit-content;
+}
