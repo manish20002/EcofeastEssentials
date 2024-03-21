@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/coins-website/precache-manifest.f5f16fa58d280e8fcd505d34852c0805.js"
+  "/EcofeastEssentials/precache-manifest.0f981310d492dc2ea8900d16e7a9f611.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/coins-website/index.html", {
+workbox.routing.registerNavigationRoute("/EcofeastEssentials/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
