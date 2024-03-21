@@ -1,9 +1,10 @@
 ## **Project Title:**
-### Ancient Coin
+### EcofeastEssentials
 
 ## Description:
 
-**Developed a web-based cataloging system for ancient coins, allowing users to organize, search, and learn about various historical coins from different civilizations. The system provides detailed information on coin attributes, historical context, and provenance.**
+**Ecofeastessentials offers sustainable and eco-friendly dining solutions for conscious consumers.**
+
 ## 🖥️ Tech Stack
 **Frontend:**
 
