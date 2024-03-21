@@ -1,40 +1,56 @@
 import React from 'react';
-import './indcoi';
-import './frocoi';
-import './Iists/indcoils';
-import './Iists/frocoils';
+import './pro.css';
+import Plates from './images/plates.jpg';
+import Bowls from './images/pr.jpg';
+import Cups from './images/cups.jpg';
+import Spoons from './images/spoons1.jpg';
+
 
 export default function coins() {
   return (
     <div>
       <section class="text-gray-600 body-font">
-        <div class="container px-4 py-20 mx-auto">
-          <div class="flex flex-wrap -mx-4 -mb-10 text-center">
-            <div class="sm:w-1/2 mb-10 px-4">
-              <div class="rounded-lg h-64 overflow-hidden">
-                <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1201x501" />
+        <div class="container px-2 py-28 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src={Plates}/>
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">PLATE</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Plates 10x10</h2>
+                <p class="mt-1">$16.00</p>
               </div>
-              <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Indian Coins </h2>
-              <p class="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
-              <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
-                <a href="/indcoi">Indian Coins</a>
-              </button>
-              <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
-                <a href="/indcoils">Indian Coins Lists</a>
-              </button>
             </div>
-            <div class="sm:w-1/2 mb-10 px-4">
-              <div class="rounded-lg h-64 overflow-hidden">
-                <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1202x502" />
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src={Bowls}/>
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">BOWL</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Bowls 200ml</h2>
+                <p class="mt-1">$21.15</p>
               </div>
-              <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Foreign Coins</h2>
-              <p class="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
-              <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
-                <a href="/frocoi"> Foreign Coins </a>
-              </button>
-              <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
-                <a href="/frocoils"> Foreign Coins Lists</a>
-              </button>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src={Cups}/>
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CUP</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Cups 200ml</h2>
+                <p class="mt-1">$12.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src={Spoons}/>
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">SPOON</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Spoons & Forks</h2>
+                <p class="mt-1">$18.40</p>
+              </div>
             </div>
           </div>
         </div>

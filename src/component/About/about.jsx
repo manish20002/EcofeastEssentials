@@ -1,72 +1,57 @@
-import React from 'react'
+import React from 'react';
+import './about.css'
 
 export default function about() {
   return (
     <div>
-      <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">OUR TEAM</h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
-          </div>
-          <div className="flex flex-wrap -m-4">
-            <div className="p-4 lg:w-1/2">
-              <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/200x200" />
-                <div className="flex-grow sm:pl-8">
-                  <h2 className="title-font font-medium text-lg text-gray-900">Manish</h2>
-                  <h3 className="text-gray-500 mb-3">UI Developer</h3>
-                  <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
-                  <span className="inline-flex">
-                    <a className="text-gray-500">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
-                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                      </svg>
-                    </a>
-                    <a className="ml-2 text-gray-500">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
-                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                      </svg>
-                    </a>
-                    <a className="ml-2 text-gray-500">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
-                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                      </svg>
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="p-4 lg:w-1/2">
-              <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/201x201" />
-                <div className="flex-grow sm:pl-8">
-                  <h2 className="title-font font-medium text-lg text-gray-900">Ritesh Asati</h2>
-                  <h3 className="text-gray-500 mb-3">Designer</h3>
-                  <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
-                  <div>
-                    <span className="inline-flex">
-                      <a className="text-gray-500">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
-                          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                        </svg>
-                      </a>
-                      <a className="ml-2 text-gray-500">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
-                          <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                        </svg>
-                      </a>
-                      <a className="ml-2 text-gray-500">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
-                          <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                        </svg>
-                      </a>
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+
+      <section class="con">
+        <div>
+          <h1 className='title'>Our Team</h1>
+          <p className="miss_pa">Our dedicated team at <b className='title_val'> Ecofeastessentials</b> combines expertise in sustainability and culinary innovation to create environmentally-friendly dining experiences. With a passion for reducing waste and promoting eco-conscious living, we strive to make a positive impact on the planet.</p>
+          <h1 className='title'>Our company misson and values</h1>
+          <h2 className='miss'><b>Mission:</b></h2>
+          <p className='miss_pa'>
+            At Ecofeastessentials, our mission is to inspire and empower individuals to make sustainable choices in their kitchen and dining experiences. We strive to provide access to high-quality, eco-friendly products that promote environmental stewardship and reduce waste. Through our curated selection and commitment to education, we aim to foster a community of conscious consumers dedicated to creating a healthier planet for future generations.
+            <br />
+          </p>
+
+          <h2 className='value'><b>Values:</b></h2>
+          <ul className='value_con'>
+            <li className='value_li'>
+              <b className='title_val'>Sustainability:</b>
+              <p className='value_pa'>We are dedicated to offering products that prioritize sustainability,
+                from the materials they're made of to their end-of-life disposal.
+                We believe in reducing our ecological footprint and promoting practices that preserve natural resources.
+              </p>
+            </li>
+            <li className='value_li'>
+              <b className='title_val'>Quality:</b>
+              <p className='value_pa'>We value quality craftsmanship and design,
+                ensuring that our products are durable, functional, and reliable for everyday use.
+                By investing in well-made items, we encourage a mindset of long-term sustainability and reduced consumption.
+              </p>
+            </li>
+            <li className='value_li'>
+              <b className='title_val'>Transparency:</b> <p className='value_pa'>
+                We believe in transparency throughout our supply chain,
+                from sourcing materials to manufacturing processes.
+                We strive to provide our customers with clear information about the environmental impact of our products, empowering them to make informed purchasing decisions.
+              </p>
+            </li>
+            <li className='value_li'>
+              <b className='title_val'>Community:</b> <p className='value_pa'>We aim to build a community of like-minded individuals who share our passion for sustainability and conscious living. Through educational resources, collaborative initiatives, and engagement with our customers, we seek to foster a supportive network committed to positive environmental change.
+              </p>
+            </li>
+            <li className='value_li'>
+              <b className='title_val'>Innovation:</b> <p className='value_pa'>We are committed to innovation and continuous improvement in our quest for more sustainable solutions. By staying informed about advancements in eco-friendly technology and materials, we aim to offer cutting-edge products that align with our values and meet the evolving needs of our customers.
+              </p>
+            </li>
+          </ul>
+          <br />
+          <a href="https://drive.google.com/file/d/1I_RTzsYTSksNeTQAthHBMYiIqiXtGuN4/view?usp=sharing">
+            <button class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mb-2">Presentation</button>
+          </a>
         </div>
       </section>
     </div>
