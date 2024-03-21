@@ -12,7 +12,7 @@
     text-align: justify;
     padding-left: 2rem;
     padding-right: 2rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 600;
     color: green;
 }
@@ -22,6 +22,7 @@
     padding-left: 4rem;
     padding-right: 4rem;
     gap: 0.5rem;
+    font-size: 1.5rem;
     font-family: "Madimi One";
     font-weight: 500;
     font-style: normal;
@@ -32,7 +33,7 @@
     padding-top: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 600;
     color: green;
 }
@@ -48,6 +49,7 @@
     text-align: justify;
     padding-left: 2rem;
     padding-right: 2rem;
+    font-size: 1.5rem;
 }
 
 .value_pa {
@@ -60,4 +62,14 @@
 
 .title_val {
     color: green;
+}
+
+.team_pa {
+    text-align: left;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 1.5rem;
+    font-family: "Madimi One";
+    font-weight: 500;
+    font-style: normal;
 }

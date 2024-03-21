@@ -1,8 +1,8 @@
 import React from 'react';
 import './pro.css';
 import Plates from './images/plates.jpg';
-import Bowls from './images/pr.jpg';
-import Cups from './images/cups.jpg';
+import Bowls from './images/bowls.jpg';
+import Cups from './images/cups1.jpg';
 import Spoons from './images/spoons1.jpg';
 
 

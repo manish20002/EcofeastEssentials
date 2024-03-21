@@ -8,7 +8,7 @@ export default function about() {
       <section class="con">
         <div>
           <h1 className='title'>Our Team</h1>
-          <p className="miss_pa">Our dedicated team at <b className='title_val'> Ecofeastessentials</b> combines expertise in sustainability and culinary innovation to create environmentally-friendly dining experiences. With a passion for reducing waste and promoting eco-conscious living, we strive to make a positive impact on the planet.</p>
+          <p className="team_pa">Our dedicated team at <b className='title_val'> Ecofeastessentials</b> combines expertise in sustainability and culinary innovation to create environmentally-friendly dining experiences. With a passion for reducing waste and promoting eco-conscious living, we strive to make a positive impact on the planet.</p>
           <h1 className='title'>Our company misson and values</h1>
           <h2 className='miss'><b>Mission:</b></h2>
           <p className='miss_pa'>
